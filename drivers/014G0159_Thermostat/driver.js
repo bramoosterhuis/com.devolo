@@ -100,7 +100,7 @@ module.exports.on('initNode', (token) => {
 			if (debouncer) clearTimeout(debouncer);
 			debouncer = setTimeout(() => {
 				if (command.name === 'CENTRAL_SCENE_NOTIFICATION') {
-					if (report && report['Scene Number'] === 1) Homey.manager('flow').triggerDevice(`014G0159_btn_${report['Scene Number']}`, null, null, node.device_data);
+					if (report && report['Scene Number'] === 1) Homey.manager('flow').triggerDevice(`014G0159_Thermostat_btn_${report['Scene Number']}`, null, null, node.device_data);
 				}
 			}, 1000);
 		});

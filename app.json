@@ -47,7 +47,7 @@
           {
             "name": "device",
             "type": "device",
-            "filter": "driver_id=MT2652"
+            "filter": "driver_id=MT2652_SceneSwitch"
           },
           {
             "name": "button",
@@ -136,7 +136,7 @@
           {
             "name": "device",
             "type": "device",
-            "filter": "driver_id=MT2653"
+            "filter": "driver_id=MT2653_HomeControlKey"
           }
         ]
       },
@@ -150,7 +150,7 @@
           {
             "name": "device",
             "type": "device",
-            "filter": "driver_id=MT2653"
+            "filter": "driver_id=MT2653_HomeControlKey"
           }
         ]
       },
@@ -164,7 +164,7 @@
           {
             "name": "device",
             "type": "device",
-            "filter": "driver_id=MT2653"
+            "filter": "driver_id=MT2653_HomeControlKey"
           }
         ]
       },
@@ -178,7 +178,7 @@
           {
             "name": "device",
             "type": "device",
-            "filter": "driver_id=MT2653"
+            "filter": "driver_id=MT2653_HomeControlKey"
           }
         ]
       },
@@ -192,7 +192,7 @@
           {
             "name": "device",
             "type": "device",
-            "filter": "driver_id=MT2653"
+            "filter": "driver_id=MT2653_HomeControlKey"
           }
         ]
       },
@@ -206,12 +206,12 @@
           {
             "name": "device",
             "type": "device",
-            "filter": "driver_id=MT2653"
+            "filter": "driver_id=MT2653_HomeControlKey"
           }
         ]
       },
       {
-        "id": "014G0159_btn_1",
+        "id": "014G0159_Thermostat_btn_1",
         "title": {
           "en": "Button pressed",
           "nl": "Knop ingedrukt"
@@ -220,7 +220,7 @@
           {
             "name": "device",
             "type": "device",
-            "filter": "driver_id=014G0159"
+            "filter": "driver_id=014G0159_Thermostat"
           }
         ]
       }
@@ -228,7 +228,7 @@
   },
   "drivers": [
     {
-      "id": "MT2652",
+      "id": "MT2652_SceneSwitch",
       "name": {
         "en": "Scene Switch",
         "nl": "Intelligente Schakelaar"
@@ -239,14 +239,14 @@
         "productId": 257,
         "wakeUpInterval": 1800,
         "learnmode": {
-          "image": "/drivers/MT2652/assets/learnmode.svg",
+          "image": "/drivers/MT2652_SceneSwitch/assets/learnmode.svg",
           "instruction": {
             "en": "Activate inclusion on the device by pressing any one of the four buttons for one second.",
             "nl": "Om het apparaat toe te voegen, druk langer dan één seconde op één van de knoppen van de schakelaar."
           }
         },
         "unlearnmode": {
-          "image": "/drivers/MT2652/assets/learnmode.svg",
+          "image": "/drivers/MT2652_SceneSwitch/assets/learnmode.svg",
           "instruction": {
             "en": "Activate exclusion on the device by putting the device in \"Management Mode\", afterwards press any one of the four buttons for one second.",
             "nl": "Om het apparaat te verwijderen, zet het apparaat in \"Management Modus\",druk vervolgens langer dan één seconde op één van de knoppen van de schakelaar."
@@ -261,8 +261,8 @@
         "measure_battery"
       ],
       "images": {
-        "large": "/drivers/MT2652/assets/images/large.png",
-        "small": "/drivers/MT2652/assets/images/small.png"
+        "large": "/drivers/MT2652_SceneSwitch/assets/images/large.png",
+        "small": "/drivers/MT2652_SceneSwitch/assets/images/small.png"
       },
       "mobile": {
         "components": [
@@ -687,7 +687,7 @@
       ]
     },
     {
-      "id": "014G0801",
+      "id": "014G0801_RadiatorThermostat",
       "name": {
         "en": "Radiator Thermostat",
         "nl": "Radiatorthermostaat"
@@ -698,14 +698,14 @@
         "productId": 373,
         "wakeUpInterval": 1800,
         "learnmode": {
-          "image": "drivers/014G0801/assets/icon.svg",
+          "image": "drivers/014G0801_RadiatorThermostat/assets/icon.svg",
           "instruction": {
             "en": "Press the middle button on your Devolo Radiator Thermostat",
             "nl": "Druk op de middelste knop van de Devolo Radiatorthermostaat"
           }
         },
         "unlearnmode": {
-          "image": "drivers/014G0801/assets/icon.svg",
+          "image": "drivers/014G0801_RadiatorThermostat/assets/icon.svg",
           "instruction": {
             "en": "Press the middle button on your Devolo Radiator Thermostat",
             "nl": "Druk op de middelste knop van de Devolo Radiatorthermostaat"
@@ -729,12 +729,12 @@
         }
       },
       "images": {
-        "small": "drivers/014G0801/assets/images/small.jpg",
-        "large": "drivers/014G0801/assets/images/large.jpg"
+        "small": "drivers/014G0801_RadiatorThermostat/assets/images/small.jpg",
+        "large": "drivers/014G0801_RadiatorThermostat/assets/images/large.jpg"
       }
     },
     {
-      "id": "MT2653",
+      "id": "MT2653_HomeControlKey",
       "name": {
         "en": "Home Control Keyfob"
       },
@@ -747,14 +747,14 @@
           258
         ],
         "learnmode": {
-          "image": "/drivers/MT2653/assets/learnmode.svg",
+          "image": "/drivers/MT2653_HomeControlKey/assets/learnmode.svg",
           "instruction": {
             "en": "When in factory default push button 1 shortly to start inclusion.",
             "nl": "Als de Keyfob in standaard fabrieksmodus staat, druk dan kort op knop 1 om het apparaat toe te voegen."
           }
         },
         "unlearnmode": {
-          "image": "/drivers/MT2653/assets/learnmode.svg",
+          "image": "/drivers/MT2653_HomeControlKey/assets/learnmode.svg",
           "instruction": {
             "en": "When in factory default push button 1 shortly to start exclusion.",
             "nl": "Als de Keyfob in standaard fabrieksmodus staat, druk dan kort op knop 1 om het apparaat te verwijderen."
@@ -813,8 +813,8 @@
         "measure_battery"
       ],
       "images": {
-        "small": "drivers/MT2653/assets/images/small.png",
-        "large": "drivers/MT2653/assets/images/large.png"
+        "small": "drivers/MT2653_HomeControlKey/assets/images/small.png",
+        "large": "drivers/MT2653_HomeControlKey/assets/images/large.png"
       },
       "settings": [
         {
@@ -1132,7 +1132,7 @@
       ]
     },
     {
-      "id": "MT2647",
+      "id": "MT2647_MotionSensor",
       "name": {
         "en": "Motion Sensor",
         "nl": "Bewegingsdetector"
@@ -1148,14 +1148,14 @@
         ],
         "wakeUpInterval": 3600,
         "learnmode": {
-          "image": "/drivers/MT2647/assets/learnmode.svg",
+          "image": "/drivers/MT2647_MotionSensor/assets/learnmode.svg",
           "instruction": {
             "en": "Press the tamper button on the back of the Motion Sensor three times.",
             "nl": "Druk drie keer op de knop achter op de Bewegingssensor."
           }
         },
         "unlearnmode": {
-          "image": "/drivers/MT2647/assets/learnmode.svg",
+          "image": "/drivers/MT2647_MotionSensor/assets/learnmode.svg",
           "instruction": {
             "en": "Press the tamper button on the back of the Motion Sensor three times.",
             "nl": "Druk drie keer op de knop achter op de Bewegingssensor."
@@ -1182,8 +1182,8 @@
         "measure_battery"
       ],
       "images": {
-        "large": "/drivers/MT2647/assets/images/large.png",
-        "small": "/drivers/MT2647/assets/images/small.png"
+        "large": "/drivers/MT2647_MotionSensor/assets/images/large.png",
+        "small": "/drivers/MT2647_MotionSensor/assets/images/small.png"
       },
       "mobile": {
         "components": [
@@ -1415,7 +1415,7 @@
       ]
     },
     {
-      "id": "MT2648",
+      "id": "MT2648_DoorWindowContact",
       "name": {
         "en": "Door/Window Contact"
       },
@@ -1428,14 +1428,14 @@
           14
         ],
         "learnmode": {
-          "image": "/drivers/MT2648/assets/learnmode.svg",
+          "image": "/drivers/MT2648_DoorWindowContact/assets/learnmode.svg",
           "instruction": {
             "en": "Press the tamper button on the back of the Door/Window Contact three times.",
             "nl": "Druk drie keer op de knop achter op de Door/Window Contact."
           }
         },
         "unlearnmode": {
-          "image": "/drivers/MT2648/assets/learnmode.svg",
+          "image": "/drivers/MT2648_DoorWindowContact/assets/learnmode.svg",
           "instruction": {
             "en": "Press the tamper button on the back of the Door/Window Contact three times.",
             "nl": "Druk drie keer op de knop achter op de Door/Window Contact."
@@ -1468,8 +1468,8 @@
         "measure_battery"
       ],
       "images": {
-        "large": "/drivers/MT2648/assets/images/large.png",
-        "small": "/drivers/MT2648/assets/images/small.png"
+        "large": "/drivers/MT2648_DoorWindowContact/assets/images/large.png",
+        "small": "/drivers/MT2648_DoorWindowContact/assets/images/small.png"
       },
       "mobile": {
         "components": [
@@ -1599,7 +1599,7 @@
       ]
     },
     {
-      "id": "MT2646",
+      "id": "MT2646_MeteringPlug",
       "name": {
         "en": "Metering Plug"
       },
@@ -1612,14 +1612,14 @@
           17
         ],
         "learnmode": {
-          "image": "/drivers/MT2646/assets/learnmode.svg",
+          "image": "/drivers/MT2646_MeteringPlug/assets/learnmode.svg",
           "instruction": {
             "en": "Put the Metering Plug in a socket or press the button on the front of the device three times to start inclusion.",
             "nl": "Stop de Metering Plug in het stopcontact of druk drie keer op de knop aan de voorkant van het apparaat om het toevoegen te starten."
           }
         },
         "unlearnmode": {
-          "image": "/drivers/MT2646/assets/learnmode.svg",
+          "image": "/drivers/MT2646_MeteringPlug/assets/learnmode.svg",
           "instruction": {
             "en": "Press the button on the front of the device three times to start exclusion.",
             "nl": "Druk drie keer op de knop aan de voorkant van het apparaat om hem te verwijderen."
@@ -1644,8 +1644,8 @@
         "meter_power"
       ],
       "images": {
-        "large": "/drivers/MT2646/assets/images/large.png",
-        "small": "/drivers/MT2646/assets/images/small.png"
+        "large": "/drivers/MT2646_MeteringPlug/assets/images/large.png",
+        "small": "/drivers/MT2646_MeteringPlug/assets/images/small.png"
       },
       "settings": [
         {
@@ -1770,7 +1770,7 @@
       ]
     },
     {
-      "id": "014G0159",
+      "id": "014G0159_Thermostat",
       "class": "thermostat",
       "name": {
         "en": "Room Thermostat",
@@ -1787,8 +1787,8 @@
         }
       },
       "images": {
-        "large": "/drivers/014G0159/assets/images/large.png",
-        "small": "/drivers/014G0159/assets/images/small.png"
+        "large": "/drivers/014G0159_Thermostat/assets/images/large.png",
+        "small": "/drivers/014G0159_Thermostat/assets/images/small.png"
       },
       "zwave": {
         "manufacturerId": 2,
@@ -1800,14 +1800,14 @@
         ],
         "wakeUpInterval": 3600,
         "learnmode": {
-          "image": "/drivers/014G0159/assets/learnmode.svg",
+          "image": "/drivers/014G0159_Thermostat/assets/learnmode.svg",
           "instruction": {
             "en": "Press the button on top of the Room Thermostat to start pairing.",
             "nl": "Druk op de knop boven op de Kamerthermostaat om het apparaat toe te voegen."
           }
         },
         "unlearnmode": {
-          "image": "/drivers/014G0159/assets/learnmode.svg",
+          "image": "/drivers/014G0159_Thermostat/assets/learnmode.svg",
           "instruction": {
             "en": "Press the button on top of the Room Thermostat to remove the device.",
             "nl": "Druk op de knop boven op de Kamerthermostaat om het apparaat te verwijderen."

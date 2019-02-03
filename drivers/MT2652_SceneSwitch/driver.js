@@ -78,7 +78,7 @@ module.exports.on('initNode', (token) => {
 
 				const triggerId = triggerMap[report['Scene Number']];
 				if (triggerId) {
-					Homey.manager('flow').triggerDevice(`mt2652_btn${triggerId}`, null, null, node.device_data);
+					Homey.manager('flow').triggerDevice(`MT2652_SceneSwitch_btn${triggerId}`, null, null, node.device_data);
 				}
 			}
 		});
