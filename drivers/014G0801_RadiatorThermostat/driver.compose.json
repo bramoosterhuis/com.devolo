@@ -1,5 +1,5 @@
 {
-  "id": "014G0801",
+  "id": "014G0801_RadiatorThermostat",
   "name": {
     "en": "Radiator Thermostat",
     "nl": "Radiatorthermostaat"
@@ -17,7 +17,7 @@
       }
     },
     "unlearnmode": {
-      "image": "drivers/014G0801/assets/icon.svg",
+      "image": "drivers/014G0801_RadiatorThermostat/assets/icon.svg",
       "instruction": {
         "en": "Press the middle button on your {{driverNameEn}}",
         "nl": "Druk op de middelste knop van de {{driverNameNl}}"
