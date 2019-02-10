@@ -17,7 +17,7 @@ class DevoloSceneSwitch extends ZwaveDevice {
 			const scene = report['Key Attributes'];
 
 			const state = {
-            	button,
+				button,
 				scene,
 			};
 
